@@ -1,5 +1,11 @@
-ip,timestamp,method,endpoint,status
-192.168.1.10,04/Mar/2026:10:15:32,GET,/api/data,200
-192.168.1.11,04/Mar/2026:10:16:10,POST,/login,401
-192.168.1.10,04/Mar/2026:10:17:45,GET,/dashboard,200
-192.168.1.15,04/Mar/2026:10:18:00,GET,/api/data,500
+Metric,Value
+Total Requests,15
+Status 200,5
+Status 401,3
+Status 500,7
+Top IP 192.168.1.15,4
+Top IP 192.168.1.10,2
+Top IP 192.168.1.12,2
+Top IP 192.168.1.11,1
+Top IP 192.168.1.13,1
+Max Consecutive 500 Errors,3

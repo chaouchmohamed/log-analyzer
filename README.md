@@ -12,11 +12,5 @@ Supports line-by-line processing, detects **500-error spikes**, tracks **top IPs
 
 ## Usage
 
-
+```bash
 python analyzer.py logs/sample.log
-
-
-## requirements :
-
-install rich :
-pip install rich
