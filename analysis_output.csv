@@ -1,5 +1,5 @@
 ip,timestamp,method,endpoint,status
-192.168.1.10,,GET,/api/data,200
-192.168.1.11,,POST,/login,401
-192.168.1.10,,GET,/dashboard,200
-192.168.1.15,,GET,/api/data,500
+192.168.1.10,04/Mar/2026:10:15:32,GET,/api/data,200
+192.168.1.11,04/Mar/2026:10:16:10,POST,/login,401
+192.168.1.10,04/Mar/2026:10:17:45,GET,/dashboard,200
+192.168.1.15,04/Mar/2026:10:18:00,GET,/api/data,500
