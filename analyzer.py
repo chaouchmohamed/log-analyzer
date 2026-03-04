@@ -35,6 +35,7 @@ def analyze_log(file_path):
                 parsed_data.append(result)
 
     df = pd.DataFrame(parsed_data)
+    df.to_csv("analysis_output.csv", index=False)
 
     return df
 

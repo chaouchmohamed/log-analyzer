@@ -1,0 +1,5 @@
+ip,timestamp,method,endpoint,status
+192.168.1.10,,GET,/api/data,200
+192.168.1.11,,POST,/login,401
+192.168.1.10,,GET,/dashboard,200
+192.168.1.15,,GET,/api/data,500
