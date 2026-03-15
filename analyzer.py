@@ -1,4 +1,3 @@
-# analyzer.py
 import re
 import sys
 from collections import Counter
@@ -54,7 +53,7 @@ def stream_analyze(file_path):
         sys.exit(1)
 
     # -----------------------------
-    # CSV export for GB logs
+    # CSV export
     # -----------------------------
     try:
         with open("analysis_output.csv", "w") as csvfile:
